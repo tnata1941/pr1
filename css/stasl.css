@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+body{
+margin: 40px 40px;
+color: #000;
+font-family: 'Roboto', sans-serif;
+}
+    
+.container{
+    background-color: #FBE1FF;
+    max-width: 1200px;
+    margin: auto;
+   
+}
+.head{
+    max-width: 1090px;
+      display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.text-logo{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.imeg-logo{
+    margin-right: 4px;
+}
+.sotial-link{
+    margin-left: 20px;
+}
+.main{
+    display: flex;  
+    justify-content: space-between;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.left-colon{
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 720px;
+}
+.user-profesionfl{
+    margin: 0;
+    color: #21406C;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-name{
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-description{
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 55px;
+}
+.features-titl{
+    margin: 0;
+    color: #21406C;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;   
+}
+.features-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.features-item{
+    flex-basis: 50%;
+    max-width: 288px;
+    margin-bottom: 30px;
+}
+.features-image{
+    display: block;
+    margin-bottom: 22px;
+}
+.features-item-title{
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; 
+    margin-bottom: 16px;
+}
+.features-text{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+.projects-title{
+    color: #21406C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 35px;
+}
+.projects-slider{ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+   
+}
+.projects-text{
+    display: flex;
+    flex-basis: 55% ;
+    flex-wrap: wrap;
+}
+
+.projects-text-title{
+    margin: 0;
+    flex-basis: 100% ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+   
+
+}
+.projects-time, .projects-cost{
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-start;
+}
+.projects-subtitle, .projects-paragraph{
+    margin: 0;
+}
+.projects-icon{
+    margin-right: 11px;
+}
+,projects-subtitle{
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.projects-paragraph{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 12px;
+}
+.right-colon{
+    background-color: #BC8F8F;
+    width: 380px;
+}
+.avatar{
+    width: 310p;
+    height: 310px;
+    background-color: #fff;
+    border-radius: 50%;   
+    margin: auto; 
+    margin-top: 30px;
+    background-image: url('../img/fotom.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 9px solid #fff;
+
+}
+.contact, .tech-skills, .Soft-Skills{
+    margin-left: 40px ;
+    margin-bottom: 40px;
+}
+.right-title{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+ 
+    }
+ .contact-type{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 20px;
+   
+  }
+  .contact-link{
+    opacity: 0.5;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+  .tech-skills{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .Soft-Skills{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
